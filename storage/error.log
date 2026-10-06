@@ -1,0 +1,24 @@
+2026-10-06T21:32:15+05:30 ErrorException: fputcsv(): the $escape parameter must be provided as its default value will change in F:\projects\shop-sys\app\lib\Report.php:5
+Stack trace:
+#0 [internal function]: {closure:F:\projects\shop-sys\app\bootstrap.php:15}(8192, 'fputcsv(): the ...', 'F:\\projects\\sho...', 5)
+#1 F:\projects\shop-sys\app\lib\Report.php(5): fputcsv(Resource id #13, Array)
+#2 F:\projects\shop-sys\app\controllers\StockController.php(16): Report::csv('stock_levels.cs...', Array, Array)
+#3 F:\projects\shop-sys\app\core\Controller.php(17): StockController->action_index()
+#4 F:\projects\shop-sys\index.php(12): Controller->run('index')
+#5 {main}
+2026-10-06T21:32:16+05:30 ErrorException: fputcsv(): the $escape parameter must be provided as its default value will change in F:\projects\shop-sys\app\lib\Report.php:5
+Stack trace:
+#0 [internal function]: {closure:F:\projects\shop-sys\app\bootstrap.php:15}(8192, 'fputcsv(): the ...', 'F:\\projects\\sho...', 5)
+#1 F:\projects\shop-sys\app\lib\Report.php(5): fputcsv(Resource id #13, Array)
+#2 F:\projects\shop-sys\app\controllers\StockController.php(16): Report::csv('stock_levels.cs...', Array, Array)
+#3 F:\projects\shop-sys\app\core\Controller.php(17): StockController->action_index()
+#4 F:\projects\shop-sys\index.php(12): Controller->run('index')
+#5 {main}
+2026-10-06T21:32:22+05:30 ErrorException: fputcsv(): the $escape parameter must be provided as its default value will change in F:\projects\shop-sys\app\lib\Report.php:5
+Stack trace:
+#0 [internal function]: {closure:F:\projects\shop-sys\app\bootstrap.php:15}(8192, 'fputcsv(): the ...', 'F:\\projects\\sho...', 5)
+#1 F:\projects\shop-sys\app\lib\Report.php(5): fputcsv(Resource id #13, Array)
+#2 F:\projects\shop-sys\app\controllers\StockController.php(16): Report::csv('stock_levels.cs...', Array, Array)
+#3 F:\projects\shop-sys\app\core\Controller.php(17): StockController->action_index()
+#4 F:\projects\shop-sys\index.php(12): Controller->run('index')
+#5 {main}
